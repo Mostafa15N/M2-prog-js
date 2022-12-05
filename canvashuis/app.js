@@ -11,71 +11,71 @@ class App
 
         g.beginPath()
         g.fillStyle = "red";
-        g.moveTo(300,100);
-        g.lineTo(200,300);
-        g.lineTo(600,400);
-        g.lineTo(700,200);
+        g.moveTo(150,50);
+        g.lineTo(100,150);
+        g.lineTo(300,200);
+        g.lineTo(350,100);
         g.closePath();
         g.stroke();
         g.fill()
 
         g.beginPath()
         g.fillStyle = "grey";
-        g.moveTo(700,200);
-        g.lineTo(800,300);
-        g.lineTo(800,500);
-        g.lineTo(600,600);
-        g.lineTo(200,500);
-        g.lineTo(200,300);
-        g.lineTo(600,400);
+        g.moveTo(350,100);
+        g.lineTo(400,150);
+        g.lineTo(400,250);
+        g.lineTo(300,300);
+        g.lineTo(100,250);
+        g.lineTo(100,150);
+        g.lineTo(300,200);
         g.closePath();
         g.stroke();
         g.fill()
 
         g.beginPath()
-        g.moveTo(800,300);
-        g.lineTo(600,400);
-        g.lineTo(600,600);
-        g.lineTo(800,500);
+        g.moveTo(400,150);
+        g.lineTo(300,200);
+        g.lineTo(300,300);
+        g.lineTo(400,250);
         g.closePath();
         g.stroke();
 
         g.beginPath()
-        g.moveTo(250,350);
-        g.lineTo(550,425);
-        g.lineTo(550,525);
-        g.lineTo(250,450);
+        g.moveTo(125,175);
+        g.lineTo(275,212,5);
+        g.lineTo(275,262,5);
+        g.lineTo(125,225);
         g.closePath();
         g.stroke();
 
         g.beginPath()
         g.fillStyle = "white";
-        g.moveTo(250,350);
-        g.lineTo(550,425);
-        g.lineTo(550,525);
-        g.lineTo(250,450);
+        g.moveTo(125,175);
+        g.lineTo(275,212,5);
+        g.lineTo(275,262,5);
+        g.lineTo(125,225);
         g.closePath();
         g.stroke();
         g.fill()
 
         g.beginPath()
-        g.moveTo(400,387);
-        g.lineTo(400,487);
+        g.moveTo(200,193,5);
+        g.lineTo(200,243,5);
         g.closePath();
         g.stroke();
 
         g.beginPath()
-        g.moveTo(250,400);
-        g.lineTo(550,475);
+        g.moveTo(125,200);
+        g.lineTo(275,237,5);
         g.closePath();
         g.stroke();
 
         g.beginPath()
         g.fillStyle = "white";
-        g.moveTo(650,435);
-        g.lineTo(760,380);
-        g.lineTo(760,520);
-        g.lineTo(650,575);
+        g.moveTo(325,217,5);
+        g.lineTo(380,190);
+        g.lineTo(380,260);
+        g.lineTo(325,287,5);
         g.closePath();
         g.stroke();
         g.fill()
